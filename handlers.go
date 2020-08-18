@@ -32,7 +32,7 @@ func CreateRelay(response http.ResponseWriter, request *http.Request) {
 func GetRelay(response http.ResponseWriter, request *http.Request) {
 	relay := relayFromRequest(request)
 
-	json.NewEncoder(response).Encode(relay)
+	json.NewEncoder(response).Encode(relay)	
 }
 
 // UpdateRelay handles a request to update a relay

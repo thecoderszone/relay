@@ -13,7 +13,7 @@ const (
 	// HOST is the HTTP server host
 	HOST = "localhost"
 	// PORT is the HTTP server port
-	PORT = 8000
+	PORT = 8080
 )
 
 func main() {
